@@ -41,14 +41,12 @@ import org.springframework.stereotype.Controller;
 @RequestMapping("//product")
 public class ProductController extends BaseController<ProductServiceImpl,Product> {
 	@Autowired
-	private IProductService productService;
-	@Autowired
 	private ICommonFileService commonFileService;
 	
 	@RequestMapping("/listProduct")
 	@ResponseBody
 	public PageResponse<ProductDTO> listProduct(int current,int size){
-		Page<Product> page = productService.selectPage(new Page<>(current, size));
+		Page<Product> page = this.baseService.selectPage(new Page<>(current, size));
 		
 		PageResponse<ProductDTO> pageResponse = PropertyUtils.convertModelToDTO(page,ProductDTO.class);
 		for(ProductDTO product : pageResponse.getRows()) {

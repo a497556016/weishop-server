@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.google.common.collect.Lists;
+import com.weishop.base.BaseController;
 import com.weishop.base.BaseResponse;
 import com.weishop.dto.ShopCartDTO;
 import com.weishop.global.BusType;
@@ -18,6 +19,7 @@ import com.weishop.service.ICommonFileService;
 import com.weishop.service.IProductItemService;
 import com.weishop.service.IProductService;
 import com.weishop.service.IShopCartService;
+import com.weishop.service.impl.ShopCartServiceImpl;
 import com.weishop.utils.PropertyUtils;
 
 import java.util.List;
@@ -35,9 +37,7 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 @RequestMapping("//shopCart")
-public class ShopCartController {
-	@Autowired
-	private IShopCartService shopCartService;
+public class ShopCartController extends BaseController<ShopCartServiceImpl, ShopCart> {
 	@Autowired
 	private IProductItemService productItemService;
 	@Autowired
@@ -51,7 +51,7 @@ public class ShopCartController {
 	public BaseResponse<List<ShopCartDTO>> queryUserShopCart(Integer userId){
 		EntityWrapper<ShopCart> wrapper = new EntityWrapper<>();
 		wrapper.eq(ShopCart.USER_ID, userId);
-		List<ShopCart> shopCarts = shopCartService.selectList(wrapper);
+		List<ShopCart> shopCarts = this.baseService.selectList(wrapper);
 		List<ShopCartDTO> shopCartDTOs = PropertyUtils.convertModelToDTO(shopCarts, ShopCartDTO.class);
 		for (ShopCartDTO shopCartDTO : shopCartDTOs) {
 			ProductItem productItem = productItemService.selectById(shopCartDTO.getProItemId());
@@ -61,7 +61,7 @@ public class ShopCartController {
 			EntityWrapper<Product> productWrapper = new EntityWrapper<>();
 			productWrapper.eq(Product.CODE, productItem.getpCode());
 			Product product = productService.selectOne(productWrapper);
-			PropertyUtils.convertModelToDTO(product, shopCartDTO);
+			PropertyUtils.convertModelToDTO(product, shopCartDTO, new String[] {"id"});
 			
 			CommonFile cf = commonFileService.selectImageByBus(BusType.PRODUCT.getType(),product.getId());
 			if(null!=cf) {

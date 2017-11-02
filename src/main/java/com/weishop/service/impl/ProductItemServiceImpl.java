@@ -55,6 +55,7 @@ public class ProductItemServiceImpl extends ServiceImpl<ProductItemMapper, Produ
 	@Override
 	public ShopCartDTO putInCart(String code, String model, String size,int count, Integer userId) {
 		ShopCartDTO shopCartDTO = new ShopCartDTO();
+		shopCartDTO.setCount(count);
 		
 		EntityWrapper<ProductItem> wrapper = new EntityWrapper<>();
 		wrapper.eq(ProductItem.P_CODE, code);
@@ -66,26 +67,36 @@ public class ProductItemServiceImpl extends ServiceImpl<ProductItemMapper, Produ
 			if(productItem.getStoreTotal()-count<=0) {
 				throw new RuntimeException("抱歉，库存已经不足！");
 			}else {
+				//判断该商品以及规格型号是否已经存在于购物车，如果存在就更新数量，不存在则插入
 				ShopCart shopCart = new ShopCart();
 				shopCart.setUserId(userId);
-				shopCart.setCount(count);
 				shopCart.setProItemId(productItem.getId());
-				shopCartMapper.insert(shopCart);
-				
-				Product product = new Product();
-				product.setCode(code);
-				product = productMapper.selectOne(product);
-				PropertyUtils.convertModelToDTO(product, shopCartDTO);
-				shopCartDTO.setProItemId(productItem.getId());
-				shopCartDTO.setCount(count);
-				shopCartDTO.setUserId(userId);
-				shopCartDTO.setModel(model);
-				shopCartDTO.setSize(size);
-				shopCartDTO.setId(shopCart.getId());
-				CommonFile cf = commonFileService.selectImageByBus(BusType.PRODUCT.getType(),product.getId());
-				if(null!=cf) {
-					shopCartDTO.setPicUrl(cf.getFilePath());
+				ShopCart sc = shopCartMapper.selectOne(shopCart);
+				if(null!=sc) {
+					sc.setCount(sc.getCount()+count);
+					shopCartMapper.updateById(sc);
+					shopCartDTO.setId(sc.getId());
+				}else {
+					Product product = new Product();
+					product.setCode(code);
+					product = productMapper.selectOne(product);
+					PropertyUtils.convertModelToDTO(product, shopCartDTO, new String[] {"id"});
+					
+					shopCart.setCount(count);
+					shopCartMapper.insert(shopCart);
+					shopCartDTO.setId(shopCart.getId());
+					
+					shopCartDTO.setProItemId(productItem.getId());
+					shopCartDTO.setUserId(userId);
+					shopCartDTO.setModel(model);
+					shopCartDTO.setSize(size);
+					
+					CommonFile cf = commonFileService.selectImageByBus(BusType.PRODUCT.getType(),product.getId());
+					if(null!=cf) {
+						shopCartDTO.setPicUrl(cf.getFilePath());
+					}
 				}
+				
 			}
 		}else {
 			throw new RuntimeException("抱歉，该商品已经下架！");

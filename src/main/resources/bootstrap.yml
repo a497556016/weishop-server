@@ -12,6 +12,11 @@ eureka:
 spring:
   application:
     name: weishop-server
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://116.196.91.220:3306/weishop?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#    username: root
+#    password: 123456
   cloud:
     config:
       label: master

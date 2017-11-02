@@ -1,0 +1,294 @@
+2017-11-01 16:42:11,140 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-01 16:42:11,671 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\CommonFileMapper.class]
+2017-11-01 16:42:11,672 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-11-01 16:42:11,672 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-11-01 16:42:11,673 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductItemMapper.class]
+2017-11-01 16:42:11,673 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-11-01 16:42:11,673 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-11-01 16:42:11,674 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-11-01 16:42:11,674 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-11-01 16:42:11,675 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'commonFileMapper' and 'com.weishop.mapper.CommonFileMapper' mapperInterface
+2017-11-01 16:42:11,675 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'commonFileMapper'.
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productItemMapper' and 'com.weishop.mapper.ProductItemMapper' mapperInterface
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productItemMapper'.
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-11-01 16:42:11,676 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-11-01 16:42:11,677 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-11-01 16:42:11,677 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-11-01 16:42:11,677 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-11-01 16:42:11,677 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-11-01 16:42:11,677 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-11-01 16:44:16,677 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-01 16:44:17,112 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\CommonFileMapper.class]
+2017-11-01 16:44:17,113 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-11-01 16:44:17,113 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-11-01 16:44:17,113 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductItemMapper.class]
+2017-11-01 16:44:17,114 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-11-01 16:44:17,115 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-11-01 16:44:17,115 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-11-01 16:44:17,116 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-11-01 16:44:17,116 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'commonFileMapper' and 'com.weishop.mapper.CommonFileMapper' mapperInterface
+2017-11-01 16:44:17,116 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'commonFileMapper'.
+2017-11-01 16:44:17,116 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-11-01 16:44:17,116 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-11-01 16:44:17,116 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-11-01 16:44:17,117 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-11-01 16:44:17,117 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productItemMapper' and 'com.weishop.mapper.ProductItemMapper' mapperInterface
+2017-11-01 16:44:17,117 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productItemMapper'.
+2017-11-01 16:44:17,117 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-11-01 16:44:17,117 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-11-01 16:44:17,117 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-11-01 16:44:17,117 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-11-01 16:44:17,117 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-11-01 16:44:17,118 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-11-01 16:44:17,118 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-11-01 16:44:17,118 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-11-01 16:46:02,929 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-01 16:46:03,381 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\CommonFileMapper.class]
+2017-11-01 16:46:03,381 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-11-01 16:46:03,381 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-11-01 16:46:03,382 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductItemMapper.class]
+2017-11-01 16:46:03,382 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-11-01 16:46:03,382 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-11-01 16:46:03,382 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-11-01 16:46:03,382 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'commonFileMapper' and 'com.weishop.mapper.CommonFileMapper' mapperInterface
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'commonFileMapper'.
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productItemMapper' and 'com.weishop.mapper.ProductItemMapper' mapperInterface
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productItemMapper'.
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-11-01 16:46:03,383 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-11-01 16:46:03,384 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-11-01 16:46:03,384 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-11-01 16:46:03,384 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-11-01 16:46:03,384 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-11-01 16:46:03,384 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-11-01 16:46:03,384 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-11-01 16:46:05,264 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-11-01 16:46:05,269 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@569348e1'
+2017-11-01 16:46:05,269 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@9e30f9a'
+2017-11-01 16:46:09,253 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\CommonFileMapper.xml]'
+2017-11-01 16:46:09,316 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-11-01 16:46:09,377 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-11-01 16:46:09,425 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductItemMapper.xml]'
+2017-11-01 16:46:09,465 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-11-01 16:46:09,505 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-11-01 16:46:09,548 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-11-01 16:46:09,583 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-11-01 16:46:12,439 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 12.326 seconds (JVM running for 12.948)
+2017-11-01 16:46:35,528 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-11-01 16:46:35,531 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21c33f84] was not registered for synchronization because synchronization is not active
+2017-11-01 16:46:35,631 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@a093721]]] will not be managed by Spring
+2017-11-01 16:46:35,645 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,BUS_ID AS busId,BUS_TYPE AS busType,FILE_TYPE AS fileType,FILE_NAME AS fileName,FILE_PATH AS filePath,FILE_WATER_PATH AS fileWaterPath,FILE_THUMB_PATH AS fileThumbPath,enabled,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM base_common_file WHERE DELETE_FLAG='0' 
+2017-11-01 16:46:35,672 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-11-01 16:46:35,718 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2017-11-01 16:46:35,723 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21c33f84]
+2017-11-01 16:46:54,890 ERROR (ExceptionHandlerAdvice.java:24)- null
+java.lang.NullPointerException: null
+	at com.weishop.base.BaseController.getRequestMapSingle(BaseController.java:55)
+	at com.weishop.base.BaseController.selectList(BaseController.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.weishop.filter.HttpAuthFilter.doFilter(HttpAuthFilter.java:34)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:167)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:80)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-01 16:47:38,093 ERROR (ExceptionHandlerAdvice.java:24)- null
+java.lang.NullPointerException: null
+	at com.weishop.base.BaseController.getRequestMapSingle(BaseController.java:55)
+	at com.weishop.base.BaseController.selectList(BaseController.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.weishop.filter.HttpAuthFilter.doFilter(HttpAuthFilter.java:34)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:208)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:167)
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:80)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-01 16:48:24,848 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-11-01 16:48:25,284 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\CommonFileMapper.class]
+2017-11-01 16:48:25,284 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-11-01 16:48:25,284 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-11-01 16:48:25,285 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductItemMapper.class]
+2017-11-01 16:48:25,285 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-11-01 16:48:25,285 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-11-01 16:48:25,286 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-11-01 16:48:25,286 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-11-01 16:48:25,286 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'commonFileMapper' and 'com.weishop.mapper.CommonFileMapper' mapperInterface
+2017-11-01 16:48:25,286 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'commonFileMapper'.
+2017-11-01 16:48:25,286 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-11-01 16:48:25,286 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-11-01 16:48:25,287 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-11-01 16:48:25,287 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-11-01 16:48:25,287 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productItemMapper' and 'com.weishop.mapper.ProductItemMapper' mapperInterface
+2017-11-01 16:48:25,287 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productItemMapper'.
+2017-11-01 16:48:25,287 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-11-01 16:48:25,287 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-11-01 16:48:25,287 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-11-01 16:48:25,287 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-11-01 16:48:25,288 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-11-01 16:48:25,288 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-11-01 16:48:25,288 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-11-01 16:48:25,288 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-11-01 16:48:26,802 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-11-01 16:48:26,805 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@569348e1'
+2017-11-01 16:48:26,805 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@9e30f9a'
+2017-11-01 16:48:30,435 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\CommonFileMapper.xml]'
+2017-11-01 16:48:30,468 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-11-01 16:48:30,494 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-11-01 16:48:30,526 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductItemMapper.xml]'
+2017-11-01 16:48:30,550 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-11-01 16:48:30,575 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-11-01 16:48:30,597 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-11-01 16:48:30,620 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-11-01 16:48:32,812 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 11.09 seconds (JVM running for 11.728)
+2017-11-01 16:48:39,094 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-11-01 16:48:39,097 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67651140] was not registered for synchronization because synchronization is not active
+2017-11-01 16:48:39,166 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7848c608]]] will not be managed by Spring
+2017-11-01 16:48:39,174 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,BUS_ID AS busId,BUS_TYPE AS busType,FILE_TYPE AS fileType,FILE_NAME AS fileName,FILE_PATH AS filePath,FILE_WATER_PATH AS fileWaterPath,FILE_THUMB_PATH AS fileThumbPath,enabled,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM base_common_file WHERE file_type = ? AND DELETE_FLAG='0' 
+2017-11-01 16:48:39,192 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(String)
+2017-11-01 16:48:39,252 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2017-11-01 16:48:39,255 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67651140]
+2017-11-01 16:49:23,232 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-11-01 16:49:23,233 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@772d8dda] was not registered for synchronization because synchronization is not active
+2017-11-01 16:49:23,276 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7848c608]]] will not be managed by Spring
+2017-11-01 16:49:23,277 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,USER_ID AS userId,address,CONTACT_NUMBER AS contactNumber,CONTACT_USER_NAME AS contactUserName,sex,country,province,city,street,community,BUILDING_FLOOR AS buildingFloor,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM base_ship_address WHERE DELETE_FLAG='0' AND (user_id = ?) 
+2017-11-01 16:49:23,280 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 13(Integer)
+2017-11-01 16:49:23,322 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-11-01 16:49:23,323 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@772d8dda]
+2017-11-01 16:49:35,618 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-11-01 16:49:35,619 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24c3dde4] was not registered for synchronization because synchronization is not active
+2017-11-01 16:49:35,660 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7848c608]]] will not be managed by Spring
+2017-11-01 16:49:35,661 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,USER_ID AS userId,address,CONTACT_NUMBER AS contactNumber,CONTACT_USER_NAME AS contactUserName,sex,country,province,city,street,community,BUILDING_FLOOR AS buildingFloor,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM base_ship_address WHERE DELETE_FLAG='0' 
+2017-11-01 16:49:35,665 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-11-01 16:49:35,706 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-11-01 16:49:35,707 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24c3dde4]
