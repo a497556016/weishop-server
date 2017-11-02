@@ -18,6 +18,6 @@ import com.weishop.service.impl.CommonFileServiceImpl;
  */
 @RestController
 @RequestMapping("//commonFile")
-public class CommonFileController extends BaseController<CommonFileServiceImpl,CommonFile>  {
+public class CommonFileController extends BaseController<CommonFileServiceImpl,CommonFile> {
 	
 }
