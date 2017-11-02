@@ -1,0 +1,812 @@
+2017-10-26 08:48:50,729 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 08:48:51,223 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 08:48:51,223 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 08:48:51,223 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 08:48:51,224 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 08:48:51,224 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 08:48:51,225 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 08:48:51,225 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 08:48:51,225 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 08:48:51,225 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 08:48:51,226 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 08:48:53,408 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 08:48:53,410 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@106c988'
+2017-10-26 08:48:53,411 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@5627cb29'
+2017-10-26 08:48:56,747 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 08:48:56,786 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 08:48:56,827 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 08:48:56,890 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 08:48:56,923 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 08:48:56,955 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 08:48:59,097 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 12.116 seconds (JVM running for 13.155)
+2017-10-26 08:53:13,137 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 08:53:13,139 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@14d10d82] was not registered for synchronization because synchronization is not active
+2017-10-26 08:53:18,060 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 08:53:18,061 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48e0fffd] was not registered for synchronization because synchronization is not active
+2017-10-26 08:53:51,287 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@14d10d82]
+2017-10-26 08:53:56,145 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48e0fffd]
+2017-10-26 08:54:46,114 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 08:54:46,114 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b91fec] was not registered for synchronization because synchronization is not active
+2017-10-26 08:54:51,100 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 08:54:51,101 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e5e4a27] was not registered for synchronization because synchronization is not active
+2017-10-26 08:55:21,322 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 08:55:21,322 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21114c38] was not registered for synchronization because synchronization is not active
+2017-10-26 08:55:24,207 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10b91fec]
+2017-10-26 08:55:29,214 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e5e4a27]
+2017-10-26 08:55:59,404 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21114c38]
+2017-10-26 08:56:28,998 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 08:56:29,420 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 08:56:29,420 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 08:56:29,420 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 08:56:29,421 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 08:56:29,421 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 08:56:29,421 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 08:56:29,422 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 08:56:29,423 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 08:56:29,423 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 08:56:30,848 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 08:56:30,850 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@106c988'
+2017-10-26 08:56:30,850 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@5627cb29'
+2017-10-26 08:56:34,164 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 08:56:34,195 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 08:56:34,221 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 08:56:34,245 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 08:56:34,268 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 08:56:34,290 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 08:56:36,193 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 10.542 seconds (JVM running for 11.1)
+2017-10-26 08:56:39,299 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 08:56:39,301 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35020cd6] was not registered for synchronization because synchronization is not active
+2017-10-26 08:57:17,443 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35020cd6]
+2017-10-26 09:20:07,748 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:20:08,171 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:20:08,171 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:20:08,171 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:20:08,171 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:20:08,172 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:20:08,172 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:20:08,172 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:20:08,173 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:20:09,538 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 09:20:09,540 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@340afaf8'
+2017-10-26 09:20:09,541 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@4fb57fb3'
+2017-10-26 09:20:12,776 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 09:20:12,809 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 09:20:12,834 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 09:20:12,859 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 09:20:12,883 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 09:20:12,906 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 09:20:14,787 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 12.398 seconds (JVM running for 13.167)
+2017-10-26 09:20:44,982 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:20:44,985 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddf8595] was not registered for synchronization because synchronization is not active
+2017-10-26 09:21:23,108 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ddf8595]
+2017-10-26 09:29:06,404 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:29:06,878 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:29:06,878 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:29:06,878 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:29:06,878 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:29:06,879 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:29:06,879 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:29:06,879 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:29:06,879 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:29:06,880 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:33:27,053 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:33:27,495 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:33:27,495 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:33:27,496 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:33:27,496 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:33:27,496 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:33:27,496 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:33:27,497 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:33:27,498 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:33:27,498 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:33:27,498 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:33:29,177 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 09:33:29,179 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@6e4e60f5'
+2017-10-26 09:33:29,179 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@6f9a3325'
+2017-10-26 09:33:32,433 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 09:33:32,467 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 09:33:32,496 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 09:33:32,526 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 09:33:32,552 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 09:33:32,574 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 09:33:34,887 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 11.394 seconds (JVM running for 12.122)
+2017-10-26 09:33:53,533 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:33:53,535 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1aaf3148] was not registered for synchronization because synchronization is not active
+2017-10-26 09:34:31,687 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1aaf3148]
+2017-10-26 09:37:24,863 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:37:25,316 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:37:25,317 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:37:25,317 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:37:25,317 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:37:25,317 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:37:25,317 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:37:25,318 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:37:25,318 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:37:25,318 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:37:25,318 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:37:25,318 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:37:25,318 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:37:25,318 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:37:25,318 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:37:25,319 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:37:25,319 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:37:25,319 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:37:25,319 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:37:40,660 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 09:37:40,663 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@c2e33'
+2017-10-26 09:37:40,663 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@31183ee2'
+2017-10-26 09:37:44,417 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 09:37:44,452 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 09:37:44,479 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 09:37:44,506 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 09:37:44,532 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 09:37:44,555 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 09:37:46,972 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 26.735 seconds (JVM running for 27.405)
+2017-10-26 09:39:16,829 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:39:16,834 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13757080] was not registered for synchronization because synchronization is not active
+2017-10-26 09:39:54,986 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13757080]
+2017-10-26 09:40:43,525 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:40:43,527 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b15fd30] was not registered for synchronization because synchronization is not active
+2017-10-26 09:42:39,888 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4b15fd30]
+2017-10-26 09:43:05,904 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:43:06,339 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:43:06,339 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:43:06,340 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:43:06,340 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:43:06,340 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:43:06,340 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:43:06,341 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:43:06,342 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:43:06,342 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:43:06,342 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:43:06,342 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:43:06,342 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:43:06,342 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:43:06,342 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:43:06,343 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:43:06,343 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:43:06,343 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:43:06,343 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:43:15,793 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 09:43:15,796 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@5cdda548'
+2017-10-26 09:43:15,796 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@4f2544b0'
+2017-10-26 09:44:06,504 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 09:44:06,544 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 09:44:06,578 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 09:44:06,609 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 09:44:06,639 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 09:44:06,664 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 09:44:11,370 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 71.414 seconds (JVM running for 72.109)
+2017-10-26 09:44:23,547 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:44:23,550 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53e342e4] was not registered for synchronization because synchronization is not active
+2017-10-26 09:45:51,763 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53e342e4]
+2017-10-26 09:47:16,514 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:47:16,932 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:47:16,933 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:47:16,933 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:47:16,933 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:47:16,934 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:47:16,934 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:47:16,934 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:47:16,934 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:47:16,934 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:47:16,934 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:47:16,935 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:47:16,935 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:47:16,935 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:47:16,935 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:47:16,935 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:47:16,935 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:47:16,935 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:47:16,935 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:47:18,304 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 09:47:18,306 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@20256a0b'
+2017-10-26 09:47:18,307 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@27e199ce'
+2017-10-26 09:47:23,010 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 09:47:23,051 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 09:47:23,093 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 09:47:23,133 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 09:47:23,162 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 09:47:23,186 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 09:47:25,145 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 11.571 seconds (JVM running for 12.171)
+2017-10-26 09:47:53,461 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:47:53,464 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b31634f] was not registered for synchronization because synchronization is not active
+2017-10-26 09:48:31,601 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b31634f]
+2017-10-26 09:50:39,512 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:50:39,513 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719b2767] was not registered for synchronization because synchronization is not active
+2017-10-26 09:51:21,451 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@719b2767]
+2017-10-26 09:53:10,265 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:53:10,265 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b5a0bff] was not registered for synchronization because synchronization is not active
+2017-10-26 09:53:48,363 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b5a0bff]
+2017-10-26 09:55:07,688 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:55:08,132 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:55:08,132 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:55:08,133 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:55:08,133 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:55:08,133 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:55:08,134 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:55:08,134 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:55:08,134 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:55:08,134 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:55:08,134 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:55:08,135 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:55:08,135 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:55:08,135 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:55:08,135 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:55:08,135 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:55:08,135 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:55:08,135 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:55:08,135 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:55:50,544 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:55:50,959 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:55:50,959 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:55:50,959 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:55:50,960 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:55:50,960 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:55:50,960 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:55:50,960 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:55:50,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:55:52,257 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 09:55:52,260 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@57435801'
+2017-10-26 09:55:52,260 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@2c7106d9'
+2017-10-26 09:55:58,161 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 09:55:58,194 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 09:55:58,221 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 09:55:58,246 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 09:55:58,273 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 09:55:58,295 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 09:56:02,506 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 13.927 seconds (JVM running for 14.551)
+2017-10-26 09:56:39,512 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:56:39,919 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:56:39,920 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:56:39,920 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:56:39,920 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:56:39,920 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:56:39,921 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:56:39,921 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:56:39,921 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:56:39,921 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:56:39,921 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:56:39,921 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:56:39,921 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:56:39,921 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:56:39,921 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:56:39,922 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:56:39,922 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:56:39,922 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:56:39,922 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:56:41,165 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 09:56:41,167 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@1b1c538d'
+2017-10-26 09:56:41,167 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@6cbd0674'
+2017-10-26 09:56:44,460 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 09:56:44,493 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 09:56:44,521 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 09:56:44,544 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 09:56:44,568 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 09:56:44,591 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 09:57:23,408 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 09:57:23,830 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 09:57:23,830 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 09:57:23,830 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 09:57:23,830 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 09:57:23,831 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 09:57:23,831 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 09:57:23,831 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 09:57:23,831 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 09:57:23,831 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 09:57:23,832 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 09:57:25,098 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 09:57:25,100 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@1b1c538d'
+2017-10-26 09:57:25,100 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@6cbd0674'
+2017-10-26 09:57:29,068 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 09:57:29,103 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 09:57:29,132 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 09:57:29,159 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 09:57:29,186 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 09:57:29,208 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 09:57:30,715 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 9.253 seconds (JVM running for 9.823)
+2017-10-26 09:57:34,163 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 09:57:34,165 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c82e493] was not registered for synchronization because synchronization is not active
+2017-10-26 13:49:14,193 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 13:49:14,689 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 13:49:14,689 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 13:49:14,689 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 13:49:14,690 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 13:49:14,690 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 13:49:14,690 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 13:49:14,690 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 13:49:14,691 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 13:49:16,510 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 13:49:16,512 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@3240b2a4'
+2017-10-26 13:49:16,513 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@2d3ef181'
+2017-10-26 13:49:19,924 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 13:49:19,960 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 13:49:19,987 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 13:49:20,012 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 13:49:20,037 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 13:49:20,059 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 13:49:21,805 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 10.423 seconds (JVM running for 11.218)
+2017-10-26 13:50:30,817 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 13:50:30,820 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47be7dd1] was not registered for synchronization because synchronization is not active
+2017-10-26 13:50:30,905 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@a2b5097]]] will not be managed by Spring
+2017-10-26 13:50:30,931 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-26 13:50:30,955 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:50:31,000 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-26 13:50:31,008 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:50:31,051 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 13:50:31,052 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47be7dd1]
+2017-10-26 13:50:48,683 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 13:50:48,683 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d42104a] was not registered for synchronization because synchronization is not active
+2017-10-26 13:50:48,723 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@a2b5097]]] will not be managed by Spring
+2017-10-26 13:50:48,725 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-26 13:50:48,725 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:50:48,766 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-26 13:50:48,768 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:50:48,808 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 13:50:48,809 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5d42104a]
+2017-10-26 13:50:49,630 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 13:50:49,631 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44b4a10a] was not registered for synchronization because synchronization is not active
+2017-10-26 13:50:49,632 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@a2b5097]]] will not be managed by Spring
+2017-10-26 13:50:49,634 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-26 13:50:49,634 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:50:49,675 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-26 13:50:49,679 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:50:49,721 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 13:50:49,722 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44b4a10a]
+2017-10-26 13:51:54,939 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 13:51:55,290 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 13:51:55,290 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 13:51:55,291 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 13:51:55,291 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 13:51:55,291 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 13:51:55,291 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 13:51:55,292 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 13:51:55,292 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 13:51:55,292 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 13:51:55,292 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 13:51:55,292 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 13:51:55,292 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 13:51:55,292 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 13:51:55,292 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 13:51:55,293 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 13:51:55,293 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 13:51:55,293 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 13:51:55,293 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 13:51:56,720 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 13:51:56,722 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@5c448ef'
+2017-10-26 13:51:56,722 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@10817f46'
+2017-10-26 13:51:59,949 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 13:51:59,978 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 13:52:00,005 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 13:52:00,027 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 13:52:00,050 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 13:52:00,072 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 13:52:01,920 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 11.616 seconds (JVM running for 12.232)
+2017-10-26 13:52:51,261 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 13:52:51,265 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f38d555] was not registered for synchronization because synchronization is not active
+2017-10-26 13:52:51,336 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@26ec5cb5]]] will not be managed by Spring
+2017-10-26 13:52:51,367 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-26 13:52:51,380 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:52:51,444 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-26 13:52:51,449 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:52:51,501 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 13:52:51,503 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f38d555]
+2017-10-26 13:54:10,761 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 13:54:10,762 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16e53e4] was not registered for synchronization because synchronization is not active
+2017-10-26 13:54:10,801 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@26ec5cb5]]] will not be managed by Spring
+2017-10-26 13:54:10,803 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-26 13:54:10,803 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:54:10,843 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-26 13:54:10,845 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:54:10,887 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 13:54:10,888 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16e53e4]
+2017-10-26 13:54:24,637 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 13:54:24,638 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dde2094] was not registered for synchronization because synchronization is not active
+2017-10-26 13:54:24,678 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@26ec5cb5]]] will not be managed by Spring
+2017-10-26 13:54:24,680 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-26 13:54:24,680 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:54:24,721 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-26 13:54:24,724 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-26 13:54:24,765 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 13:54:24,766 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dde2094]
+2017-10-26 15:47:43,705 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 15:47:44,365 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 15:47:44,365 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 15:47:44,365 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 15:47:44,365 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 15:47:44,366 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 15:47:44,367 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 15:47:44,368 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 15:47:44,369 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 15:47:44,369 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 15:47:47,320 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 15:47:47,322 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@682e445e'
+2017-10-26 15:47:47,322 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@74697863'
+2017-10-26 15:47:51,201 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 15:47:51,239 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 15:47:51,265 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 15:47:51,291 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 15:47:51,317 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 15:47:51,354 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 15:47:54,413 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 21.369 seconds (JVM running for 24.332)
+2017-10-26 17:52:30,761 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 17:52:31,158 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 17:52:31,159 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 17:52:31,159 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 17:52:31,160 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 17:52:31,160 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 17:52:31,160 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 17:52:31,160 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 17:52:31,160 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 17:52:31,161 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 17:52:33,233 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 17:52:33,235 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@7d7ceca8'
+2017-10-26 17:52:33,235 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@65593327'
+2017-10-26 17:52:36,828 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 17:52:36,861 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 17:52:36,914 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 17:52:36,940 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 17:52:36,961 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 17:52:36,983 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 17:52:39,245 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 12.221 seconds (JVM running for 13.368)
+2017-10-26 17:53:49,216 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 17:53:49,219 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5655abc3] was not registered for synchronization because synchronization is not active
+2017-10-26 17:53:49,340 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@d3e4096]]] will not be managed by Spring
+2017-10-26 17:53:49,347 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,`password`,salt,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' AND (userAccount = ?) 
+2017-10-26 17:53:49,381 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-26 17:53:49,424 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5655abc3]
+2017-10-26 17:56:41,754 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 17:56:42,157 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 17:56:42,157 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 17:56:42,157 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 17:56:42,157 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 17:56:42,158 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 17:56:42,158 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 17:56:42,158 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 17:56:42,158 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 17:56:42,158 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 17:56:42,158 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 17:56:42,159 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 17:56:42,159 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 17:56:42,159 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 17:56:42,159 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 17:56:42,160 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 17:56:42,160 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 17:56:42,160 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 17:56:42,160 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 17:56:43,626 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 17:56:43,628 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@96abc76'
+2017-10-26 17:56:43,628 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@77aea'
+2017-10-26 17:56:49,838 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 17:56:49,870 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 17:56:49,895 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 17:56:49,920 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 17:56:49,945 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 17:56:49,967 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 17:56:51,998 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 13.354 seconds (JVM running for 13.939)
+2017-10-26 17:57:00,622 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 17:57:00,625 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7351c12] was not registered for synchronization because synchronization is not active
+2017-10-26 17:57:00,699 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2cbb3132]]] will not be managed by Spring
+2017-10-26 17:57:00,704 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,USER_ACCOUNT AS userAccount,`password`,salt,USER_NAME AS userName,email,phone,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM sys_user WHERE DELETE_FLAG='0' AND (user_account = ?) 
+2017-10-26 17:57:00,723 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-26 17:57:00,770 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2017-10-26 17:57:00,772 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7351c12]
+2017-10-26 17:57:00,866 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 17:57:00,866 DEBUG (SqlSessionUtils.java:128)- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e4ff334]
+2017-10-26 17:57:00,874 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2cbb3132]]] will be managed by Spring
+2017-10-26 17:57:00,876 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO sys_user ( USER_ACCOUNT, `password`, salt, USER_NAME ) VALUES ( ?, ?, ?, ? ) 
+2017-10-26 17:57:00,881 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), f0d6c429783b1150d70c0a8219851b5b(String), 5c84eee6-63d1-4bc6-bd94-9858fdd95ad3(String), 游客登录(String)
+2017-10-26 17:57:00,961 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2017-10-26 17:57:00,963 DEBUG (SqlSessionUtils.java:186)- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e4ff334]
+2017-10-26 17:57:00,965 DEBUG (SqlSessionUtils.java:284)- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e4ff334]
+2017-10-26 17:57:00,966 DEBUG (SqlSessionUtils.java:310)- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e4ff334]
+2017-10-26 17:57:00,966 DEBUG (SqlSessionUtils.java:315)- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e4ff334]
+2017-10-26 17:57:55,846 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 17:57:55,847 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f9186f5] was not registered for synchronization because synchronization is not active
+2017-10-26 17:57:55,887 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2cbb3132]]] will not be managed by Spring
+2017-10-26 17:57:55,889 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,USER_ACCOUNT AS userAccount,`password`,salt,USER_NAME AS userName,email,phone,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM sys_user WHERE DELETE_FLAG='0' AND (user_account = ?) 
+2017-10-26 17:57:55,895 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-26 17:57:55,940 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 17:57:55,941 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@f9186f5]
+2017-10-26 17:59:37,921 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 17:59:37,922 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@283c1569] was not registered for synchronization because synchronization is not active
+2017-10-26 17:59:37,961 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2cbb3132]]] will not be managed by Spring
+2017-10-26 17:59:37,962 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,USER_ACCOUNT AS userAccount,`password`,salt,USER_NAME AS userName,email,phone,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM sys_user WHERE DELETE_FLAG='0' AND (user_account = ?) 
+2017-10-26 17:59:37,966 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-26 17:59:38,006 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 17:59:38,007 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@283c1569]
+2017-10-26 18:00:07,822 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 18:00:07,823 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d727dc4] was not registered for synchronization because synchronization is not active
+2017-10-26 18:00:07,863 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2cbb3132]]] will not be managed by Spring
+2017-10-26 18:00:07,864 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,USER_ACCOUNT AS userAccount,`password`,salt,USER_NAME AS userName,email,phone,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM sys_user WHERE DELETE_FLAG='0' AND (user_account = ?) 
+2017-10-26 18:00:07,869 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-26 18:00:07,910 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 18:00:07,918 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d727dc4]
+2017-10-26 18:30:11,289 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 18:30:11,650 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 18:30:11,651 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 18:30:11,652 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 18:30:11,652 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 18:30:11,652 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 18:30:11,652 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 18:30:11,653 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 18:30:11,654 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 18:30:13,065 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 18:30:13,067 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@96abc76'
+2017-10-26 18:30:13,067 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@77aea'
+2017-10-26 18:30:16,356 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 18:30:16,388 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 18:30:16,414 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 18:30:16,435 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 18:30:16,457 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 18:30:16,480 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 18:30:18,542 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 10.271 seconds (JVM running for 10.857)
+2017-10-26 18:32:16,705 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 18:32:16,707 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5415ba6e] was not registered for synchronization because synchronization is not active
+2017-10-26 18:32:16,779 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@3e229719]]] will not be managed by Spring
+2017-10-26 18:32:16,783 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,USER_ACCOUNT AS userAccount,`password`,salt,USER_NAME AS userName,email,phone,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM sys_user WHERE DELETE_FLAG='0' AND (user_account = ?) 
+2017-10-26 18:32:16,802 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2017-10-26 18:32:16,847 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-26 18:32:16,850 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5415ba6e]
+2017-10-26 18:34:07,177 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 18:34:07,632 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 18:34:07,633 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 18:34:07,633 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 18:34:07,635 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 18:34:07,635 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 18:34:07,635 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 18:34:07,636 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 18:34:07,636 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 18:34:07,636 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 18:34:07,636 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 18:34:07,637 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 18:34:07,637 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 18:34:07,637 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 18:34:07,637 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 18:34:07,637 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 18:34:07,637 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 18:34:07,637 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 18:34:07,637 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 18:34:09,434 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 18:34:09,436 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@4148ce43'
+2017-10-26 18:34:09,436 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@2633d09c'
+2017-10-26 18:34:12,719 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 18:34:12,757 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 18:34:12,793 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 18:34:12,831 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 18:34:12,860 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 18:34:12,890 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 18:34:15,712 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 11.985 seconds (JVM running for 12.817)
+2017-10-26 18:42:14,802 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 18:42:15,244 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 18:42:15,244 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 18:42:15,244 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 18:42:15,244 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 18:42:15,245 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 18:42:15,245 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 18:42:15,245 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 18:42:15,245 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 18:42:15,245 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 18:42:15,245 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 18:42:15,245 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 18:42:15,246 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 18:42:15,246 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 18:42:15,246 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 18:42:15,246 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 18:42:15,246 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 18:42:15,246 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 18:42:15,246 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 18:42:17,105 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 18:42:17,108 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@131777e8'
+2017-10-26 18:42:17,109 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@9f2fe2e'
+2017-10-26 18:42:20,412 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 18:42:20,446 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 18:42:20,474 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 18:42:20,501 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 18:42:20,529 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 18:42:20,553 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 18:42:23,272 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 11.963 seconds (JVM running for 12.751)
+2017-10-26 18:45:02,907 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 18:45:03,260 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 18:45:03,261 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 18:45:03,261 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 18:45:03,261 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 18:45:03,261 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 18:45:03,262 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 18:45:03,262 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 18:45:03,262 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 18:45:03,262 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 18:45:03,262 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 18:45:03,262 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 18:45:03,262 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 18:45:03,262 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 18:45:03,262 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 18:45:03,263 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 18:45:03,263 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 18:45:03,263 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 18:45:03,263 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 18:45:04,696 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 18:45:04,698 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@23ee2ccf'
+2017-10-26 18:45:04,698 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@7d25913'
+2017-10-26 18:45:07,995 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 18:45:08,026 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 18:45:08,051 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 18:45:08,074 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 18:45:08,096 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 18:45:08,120 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 18:45:10,212 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 11.559 seconds (JVM running for 12.119)
+2017-10-26 18:49:01,532 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 18:49:01,958 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 18:49:01,959 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 18:49:01,959 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 18:49:01,959 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 18:49:01,959 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 18:49:01,960 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 18:49:01,960 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 18:49:01,960 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 18:49:01,960 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 18:49:01,960 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 18:49:01,960 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 18:49:01,960 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 18:49:01,961 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 18:49:01,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 18:49:01,961 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 18:49:01,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 18:49:01,961 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 18:49:01,961 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 18:49:03,757 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 18:49:03,759 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@7ccf6114'
+2017-10-26 18:49:03,759 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@6fcc0a1'
+2017-10-26 18:49:10,061 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 18:49:10,093 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 18:49:10,123 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 18:49:10,149 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 18:49:10,174 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 18:49:10,199 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 18:49:12,887 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 15.021 seconds (JVM running for 15.75)
+2017-10-26 18:55:47,125 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-26 18:55:47,509 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-26 18:55:47,510 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-26 18:55:47,511 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-26 18:55:47,511 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-26 18:55:47,511 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-26 18:55:47,511 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-26 18:55:47,512 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-26 18:55:47,513 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-26 18:55:47,513 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-26 18:55:48,954 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-26 18:55:48,957 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@73e4bb60'
+2017-10-26 18:55:48,957 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@7708b66a'
+2017-10-26 18:55:52,158 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-26 18:55:52,189 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-26 18:55:52,214 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-26 18:55:52,236 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-26 18:55:52,258 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-26 18:55:52,281 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-26 18:55:54,343 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 10.34 seconds (JVM running for 10.912)
+2017-10-26 18:56:14,815 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 18:56:14,818 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7802e2b4] was not registered for synchronization because synchronization is not active
+2017-10-26 18:56:14,891 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@6902529f]]] will not be managed by Spring
+2017-10-26 18:56:14,897 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,USER_ACCOUNT AS userAccount,`password`,salt,USER_NAME AS userName,email,phone,DELETE_FLAG AS deleteFlag,CREATE_TIME AS createTime,CREATE_BY AS createBy,MODIFY_TIME AS modifyTime,MODIFY_BY AS modifyBy FROM sys_user WHERE DELETE_FLAG='0' AND (user_account = ?) 
+2017-10-26 18:56:14,915 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 12(String)
+2017-10-26 18:56:14,961 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2017-10-26 18:56:14,963 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7802e2b4]
+2017-10-26 18:56:15,011 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-26 18:56:15,011 DEBUG (SqlSessionUtils.java:128)- Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d95af75]
+2017-10-26 18:56:15,014 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@6902529f]]] will be managed by Spring
+2017-10-26 18:56:15,015 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO sys_user ( USER_ACCOUNT, `password`, salt, USER_NAME ) VALUES ( ?, ?, ?, ? ) 
+2017-10-26 18:56:15,018 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 12(String), 63c8e3dc9c2f2b21aec1445b8f426b8e(String), 25cd1b67-491b-40a1-9ac3-4c54a529597e(String), 游客登录(String)
+2017-10-26 18:56:15,101 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2017-10-26 18:56:15,104 DEBUG (SqlSessionUtils.java:186)- Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d95af75]
+2017-10-26 18:56:15,106 DEBUG (SqlSessionUtils.java:284)- Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d95af75]
+2017-10-26 18:56:15,108 DEBUG (SqlSessionUtils.java:310)- Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d95af75]
+2017-10-26 18:56:15,108 DEBUG (SqlSessionUtils.java:315)- Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d95af75]

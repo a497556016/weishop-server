@@ -1,0 +1,417 @@
+2017-10-25 15:17:46,811 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:17:47,507 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:17:47,507 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:17:47,508 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:17:47,508 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:17:47,508 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:17:47,509 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:17:47,509 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:17:47,509 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:17:47,509 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:17:47,509 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:17:47,509 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:17:47,509 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:17:47,510 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:17:47,510 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:17:47,510 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:17:47,510 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:17:47,510 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:17:47,510 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:25:03,033 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:25:03,493 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:25:03,493 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:25:03,494 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:25:03,494 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:25:03,494 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:25:03,495 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:25:03,495 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:25:03,495 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:25:03,495 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:25:03,496 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:26:13,087 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:26:13,539 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:26:13,539 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:26:13,539 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:26:13,540 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:26:13,540 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:26:13,540 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:26:13,540 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:26:13,541 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:26:13,542 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:27:47,985 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:27:48,425 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:27:48,426 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:27:48,426 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:27:48,427 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:27:48,427 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:27:48,428 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:27:48,428 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:27:48,428 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:27:48,428 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:27:48,429 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:27:48,429 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:27:48,429 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:27:48,429 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:27:48,429 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:27:48,429 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:27:48,429 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:27:48,430 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:27:48,430 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:40:09,132 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:40:09,565 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:40:09,566 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:40:09,566 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:40:09,566 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:40:09,566 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:40:09,567 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:40:09,567 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:40:09,567 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:40:09,567 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:40:09,567 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:40:09,567 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:40:09,567 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:40:09,567 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:40:09,568 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:40:09,568 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:40:09,568 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:40:09,568 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:40:09,568 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:44:16,538 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:44:16,992 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:44:16,993 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:44:16,993 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:44:16,993 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:44:16,994 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:44:16,994 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:44:16,994 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:44:16,994 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:44:16,994 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:44:16,994 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:44:16,995 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:44:16,995 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:44:16,995 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:44:16,995 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:44:16,995 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:44:16,995 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:44:16,995 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:44:16,995 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:45:59,300 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:45:59,752 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:45:59,752 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:45:59,752 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:45:59,752 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:45:59,753 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:45:59,754 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:45:59,754 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:45:59,754 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:45:59,754 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:45:59,754 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:45:59,754 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:45:59,754 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:45:59,754 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:45:59,755 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:45:59,755 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:45:59,755 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:45:59,755 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:45:59,755 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:46:40,645 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:46:41,239 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:46:41,239 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:46:41,240 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:46:41,240 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:46:41,241 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:46:41,241 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:46:41,241 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:46:41,242 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:47:33,321 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:47:33,784 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:47:33,784 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:47:33,785 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:47:33,785 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:47:33,785 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:47:33,786 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:47:33,786 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:47:33,786 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:47:33,786 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:47:33,786 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:47:33,786 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:47:33,786 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:47:33,786 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:47:33,787 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:47:33,787 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:47:33,787 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:47:33,787 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:47:33,787 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 15:48:42,639 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 15:48:43,137 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 15:48:43,137 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 15:48:43,137 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 15:48:43,138 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 15:48:43,138 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 15:48:43,139 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 15:48:43,139 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 15:48:43,139 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 15:48:43,140 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 16:00:20,611 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 16:00:21,059 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 16:00:21,059 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 16:00:21,059 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 16:00:21,059 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 16:00:21,060 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 16:00:21,060 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 16:00:21,060 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 16:00:21,060 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 16:00:21,061 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 16:07:34,204 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 16:07:34,645 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 16:07:34,646 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 16:07:34,646 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 16:07:34,647 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 16:07:34,647 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 16:07:34,647 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 16:07:34,648 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 16:07:34,649 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 16:07:34,649 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 16:07:34,649 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 16:35:34,300 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 16:35:34,741 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 16:35:34,742 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 16:35:34,742 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 16:35:34,743 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 16:35:34,743 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 16:35:34,743 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 16:35:34,744 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 16:35:34,744 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 16:35:34,744 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 16:35:34,744 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 16:35:34,744 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 16:35:34,745 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 16:35:34,745 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 16:35:34,745 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 16:35:34,745 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 16:35:34,745 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 16:35:34,745 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 16:35:34,745 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 16:36:37,291 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 16:36:37,750 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 16:36:37,751 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 16:36:37,751 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 16:36:37,751 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 16:36:37,752 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 16:36:37,752 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 16:36:37,752 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 16:36:37,753 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 17:26:47,883 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 17:26:48,375 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 17:26:48,376 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 17:26:48,376 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 17:26:48,377 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 17:26:48,378 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 17:26:48,379 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 17:26:48,379 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 17:26:48,380 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 17:26:48,380 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 17:26:48,380 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 17:26:48,380 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 17:26:48,381 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 17:26:48,381 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 17:26:48,381 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 17:26:48,381 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 17:26:48,381 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 17:26:48,382 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 17:26:48,382 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 17:35:07,275 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 17:35:07,716 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 17:35:07,716 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 17:35:07,717 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 17:35:07,717 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 17:35:07,718 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 17:35:07,719 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 17:35:07,720 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 17:35:07,720 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 17:35:07,720 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 17:35:07,720 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 17:35:07,720 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 17:35:07,720 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 17:35:07,720 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 17:35:07,720 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 17:35:07,721 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 17:35:07,721 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 17:35:07,721 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 17:35:07,721 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 17:35:09,569 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-25 17:35:09,590 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@20256a0b'
+2017-10-25 17:35:09,590 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@27e199ce'
+2017-10-25 17:35:13,451 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-25 17:35:13,523 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-25 17:35:13,592 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-25 17:35:13,647 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-25 17:35:13,719 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-25 17:35:13,748 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-25 17:35:15,804 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 14.461 seconds (JVM running for 15.185)
+2017-10-25 17:38:46,325 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 17:38:46,834 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 17:38:46,835 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 17:38:46,835 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 17:38:46,835 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 17:38:46,836 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 17:38:46,836 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 17:38:46,836 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 17:38:46,836 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 17:38:46,836 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 17:38:46,837 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 17:38:48,495 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-25 17:38:48,498 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@106c988'
+2017-10-25 17:38:48,498 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@5627cb29'
+2017-10-25 17:38:51,712 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-25 17:38:51,749 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-25 17:38:51,779 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-25 17:38:51,808 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-25 17:38:51,834 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-25 17:38:51,858 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-25 17:38:54,238 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 11.256 seconds (JVM running for 11.951)
+2017-10-25 17:43:58,053 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-25 17:43:58,056 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7586cdc7] was not registered for synchronization because synchronization is not active
+2017-10-25 17:44:17,387 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@2624bded]]] will not be managed by Spring
+2017-10-25 17:44:17,554 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-25 17:44:17,570 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:44:17,689 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-25 17:44:17,696 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:44:17,739 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-25 17:44:17,740 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7586cdc7]
+2017-10-25 17:44:58,586 INFO (SpringApplication.java:593)- No active profile set, falling back to default profiles: default
+2017-10-25 17:44:59,046 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderListMapper.class]
+2017-10-25 17:44:59,046 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\OrderMapper.class]
+2017-10-25 17:44:59,046 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ProductMapper.class]
+2017-10-25 17:44:59,047 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShipAddressMapper.class]
+2017-10-25 17:44:59,047 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\ShopCartMapper.class]
+2017-10-25 17:44:59,048 DEBUG (ClassPathScanningCandidateComponentProvider.java:294)- Identified candidate component class: file [E:\workspace\weishop-server\target\classes\com\weishop\mapper\UserMapper.class]
+2017-10-25 17:44:59,048 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderListMapper' and 'com.weishop.mapper.OrderListMapper' mapperInterface
+2017-10-25 17:44:59,048 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderListMapper'.
+2017-10-25 17:44:59,048 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'orderMapper' and 'com.weishop.mapper.OrderMapper' mapperInterface
+2017-10-25 17:44:59,048 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'orderMapper'.
+2017-10-25 17:44:59,048 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'productMapper' and 'com.weishop.mapper.ProductMapper' mapperInterface
+2017-10-25 17:44:59,048 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'productMapper'.
+2017-10-25 17:44:59,049 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shipAddressMapper' and 'com.weishop.mapper.ShipAddressMapper' mapperInterface
+2017-10-25 17:44:59,049 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shipAddressMapper'.
+2017-10-25 17:44:59,049 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'shopCartMapper' and 'com.weishop.mapper.ShopCartMapper' mapperInterface
+2017-10-25 17:44:59,049 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'shopCartMapper'.
+2017-10-25 17:44:59,049 DEBUG (ClassPathMapperScanner.java:180)- Creating MapperFactoryBean with name 'userMapper' and 'com.weishop.mapper.UserMapper' mapperInterface
+2017-10-25 17:44:59,049 DEBUG (ClassPathMapperScanner.java:216)- Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2017-10-25 17:45:00,592 DEBUG (MybatisSqlSessionFactoryBean.java:454)- Scanned package: 'com.weishop.pojo' for aliases
+2017-10-25 17:45:00,595 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PerformanceInterceptor@106c988'
+2017-10-25 17:45:00,595 DEBUG (MybatisSqlSessionFactoryBean.java:503)- Registered plugin: 'com.baomidou.mybatisplus.plugins.PaginationInterceptor@5627cb29'
+2017-10-25 17:45:03,721 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderListMapper.xml]'
+2017-10-25 17:45:03,781 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\OrderMapper.xml]'
+2017-10-25 17:45:03,814 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ProductMapper.xml]'
+2017-10-25 17:45:03,847 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShipAddressMapper.xml]'
+2017-10-25 17:45:03,875 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\ShopCartMapper.xml]'
+2017-10-25 17:45:03,900 DEBUG (MybatisSqlSessionFactoryBean.java:591)- Parsed mapper file: 'file [E:\workspace\weishop-server\target\classes\mapper\mysql\UserMapper.xml]'
+2017-10-25 17:45:05,891 INFO (StartupInfoLogger.java:57)- Started WeiShopApplication in 10.019 seconds (JVM running for 10.806)
+2017-10-25 17:54:02,392 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-25 17:54:02,394 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51e34a71] was not registered for synchronization because synchronization is not active
+2017-10-25 17:54:21,645 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7adcc7d7]]] will not be managed by Spring
+2017-10-25 17:54:21,676 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-25 17:54:21,689 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:54:21,735 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-25 17:54:21,740 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:54:21,782 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-25 17:54:21,783 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51e34a71]
+2017-10-25 17:54:30,947 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-25 17:54:30,947 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2181f475] was not registered for synchronization because synchronization is not active
+2017-10-25 17:54:30,986 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7adcc7d7]]] will not be managed by Spring
+2017-10-25 17:54:30,988 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-25 17:54:30,988 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:54:31,028 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-25 17:54:31,030 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:54:31,071 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-25 17:54:31,072 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2181f475]
+2017-10-25 17:54:32,005 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-25 17:54:32,005 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6fb1295b] was not registered for synchronization because synchronization is not active
+2017-10-25 17:54:32,006 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@7adcc7d7]]] will not be managed by Spring
+2017-10-25 17:54:32,007 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-25 17:54:32,007 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:54:32,053 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-25 17:54:32,055 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:54:32,096 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-25 17:54:32,096 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6fb1295b]
+2017-10-25 17:59:40,625 DEBUG (SqlSessionUtils.java:97)- Creating a new SqlSession
+2017-10-25 17:59:40,625 DEBUG (SqlSessionUtils.java:148)- SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4be715d7] was not registered for synchronization because synchronization is not active
+2017-10-25 17:59:59,848 DEBUG (SpringManagedTransaction.java:87)- JDBC Connection [ProxyConnection[PooledConnection[com.mysql.jdbc.JDBC4Connection@155ef65b]]] will not be managed by Spring
+2017-10-25 17:59:59,851 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT COUNT(1) FROM sys_user WHERE delete_flag = '0' 
+2017-10-25 17:59:59,852 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:59:59,891 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT id AS id,user_account AS userAccount,user_name AS userName,email,phone,delete_flag AS deleteFlag,create_time AS createTime,create_by AS createBy,modify_time AS modifyTime,modify_by AS modifyBy FROM sys_user WHERE delete_flag='0' LIMIT 0,1 
+2017-10-25 17:59:59,893 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2017-10-25 17:59:59,933 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2017-10-25 17:59:59,934 DEBUG (SqlSessionUtils.java:191)- Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4be715d7]
