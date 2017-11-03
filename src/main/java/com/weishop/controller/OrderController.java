@@ -3,6 +3,10 @@ package com.weishop.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.weishop.base.BaseController;
+import com.weishop.pojo.Order;
+import com.weishop.service.impl.OrderServiceImpl;
+
 import org.springframework.stereotype.Controller;
 
 /**
@@ -15,6 +19,6 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 @RequestMapping("//order")
-public class OrderController {
+public class OrderController extends BaseController<OrderServiceImpl, Order> {
 	
-}
+}	
