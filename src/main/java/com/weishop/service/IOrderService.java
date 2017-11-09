@@ -1,5 +1,6 @@
 package com.weishop.service;
 
+import com.weishop.dto.OrderDTO;
 import com.weishop.pojo.Order;
 import com.baomidou.mybatisplus.service.IService;
 
@@ -12,5 +13,5 @@ import com.baomidou.mybatisplus.service.IService;
  * @since 2017-10-27
  */
 public interface IOrderService extends IService<Order> {
-	
+	public void createOrder(OrderDTO orderDto);
 }
