@@ -13,6 +13,8 @@
 		<result column="contact_user_name" property="contactUserName" />
 		<result column="total_price" property="totalPrice" />
 		<result column="count_price" property="countPrice" />
+		<result column="pay_status" property="payStatus" />
+		<result column="delivery_status" property="deliveryStatus" />
 		<result column="delete_flag" property="deleteFlag" />
 		<result column="create_time" property="createTime" />
 		<result column="create_by" property="createBy" />
@@ -22,7 +24,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, user_id AS userId, user_name AS userName, ship_id AS shipId, ship_address AS shipAddress, contact_number AS contactNumber, contact_user_name AS contactUserName, total_price AS totalPrice, count_price AS countPrice, delete_flag AS deleteFlag, create_time AS createTime, create_by AS createBy, modify_time AS modifyTime, modify_by AS modifyBy
+        id, user_id AS userId, user_name AS userName, ship_id AS shipId, ship_address AS shipAddress, contact_number AS contactNumber, contact_user_name AS contactUserName, total_price AS totalPrice, count_price AS countPrice, pay_status AS payStatus, delivery_status AS deliveryStatus, delete_flag AS deleteFlag, create_time AS createTime, create_by AS createBy, modify_time AS modifyTime, modify_by AS modifyBy
     </sql>
 
 </mapper>

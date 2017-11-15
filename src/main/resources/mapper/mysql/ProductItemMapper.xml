@@ -9,6 +9,7 @@
 		<result column="model" property="model" />
 		<result column="size" property="size" />
 		<result column="store_total" property="storeTotal" />
+		<result column="order_count" property="orderCount" />
 		<result column="enabled" property="enabled" />
 		<result column="delete_flag" property="deleteFlag" />
 		<result column="create_time" property="createTime" />
@@ -19,7 +20,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, p_code AS pCode, model, size, store_total AS storeTotal, enabled, delete_flag AS deleteFlag, create_time AS createTime, create_by AS createBy, modify_time AS modifyTime, modify_by AS modifyBy
+        id, p_code AS pCode, model, size, store_total AS storeTotal, order_count AS orderCount, enabled, delete_flag AS deleteFlag, create_time AS createTime, create_by AS createBy, modify_time AS modifyTime, modify_by AS modifyBy
     </sql>
 
 	<select id="selectModels" parameterType="string" resultType="string">

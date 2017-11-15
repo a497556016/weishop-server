@@ -41,4 +41,11 @@ public class ShipAddressController extends BaseController<ShipAddressServiceImpl
 		return BaseResponse.result(addresses);
 	}
 	
+	@RequestMapping("/setDefaultShipAddress")
+	@ResponseBody
+	public BaseResponse<?> setDefaultShipAddress(Integer id,Integer userId){
+		this.baseService.setDefaultShipAddress(id,userId);
+		return BaseResponse.success();
+	}
+	
 }

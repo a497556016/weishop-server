@@ -32,6 +32,5 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/weishop-common"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

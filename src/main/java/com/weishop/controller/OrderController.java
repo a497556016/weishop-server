@@ -16,10 +16,16 @@ import com.weishop.base.BaseController;
 import com.weishop.base.BaseResponse;
 import com.weishop.base.PageResponse;
 import com.weishop.dto.OrderDTO;
+import com.weishop.dto.OrderListDTO;
 import com.weishop.global.ResponseCode;
+import com.weishop.pojo.CommonFile;
 import com.weishop.pojo.Order;
 import com.weishop.pojo.OrderList;
+import com.weishop.pojo.Product;
+import com.weishop.pojo.enums.BusType;
+import com.weishop.service.ICommonFileService;
 import com.weishop.service.IOrderListService;
+import com.weishop.service.IProductService;
 import com.weishop.service.impl.OrderServiceImpl;
 import com.weishop.utils.PropertyUtils;
 
@@ -36,6 +42,10 @@ import com.weishop.utils.PropertyUtils;
 public class OrderController extends BaseController<OrderServiceImpl, Order> {
 	@Autowired
 	private IOrderListService orderListService;
+	@Autowired
+	private ICommonFileService commonFileService;
+	@Autowired
+	private IProductService productService;
 	
 	@RequestMapping("/createOrder")
 	@ResponseBody
@@ -57,8 +67,19 @@ public class OrderController extends BaseController<OrderServiceImpl, Order> {
 			orderDTO.setOrder(order);
 			EntityWrapper<OrderList> wrapper = new EntityWrapper<>();
 			wrapper.eq(OrderList.ORDER_ID, order.getId());
+			wrapper.orderBy(OrderList.CODE);
 			List<OrderList> orderLists = orderListService.selectList(wrapper);
-			orderDTO.setOrderList(orderLists);
+			List<OrderListDTO> orderListDtos = PropertyUtils.convertModelToDTO(orderLists, OrderListDTO.class);
+			for (OrderListDTO orderListDTO : orderListDtos) {
+				EntityWrapper<Product> entityWrapper = new EntityWrapper<>();
+				entityWrapper.eq(Product.CODE, orderListDTO.getCode());
+				Product p = productService.selectOne(entityWrapper);
+				if(null!=p){
+					CommonFile cf = commonFileService.selectImageByBus(BusType.PRODUCT.getType(), p.getId());
+					orderListDTO.setProPicUrl(cf.getFilePath());
+				}
+			}
+			orderDTO.setOrderList(orderListDtos);
 			
 			orderDTOs.add(orderDTO);
 		}

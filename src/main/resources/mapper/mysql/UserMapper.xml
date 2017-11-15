@@ -9,8 +9,12 @@
 		<result column="password" property="password" />
 		<result column="salt" property="salt" />
 		<result column="user_name" property="userName" />
+		<result column="birthday" property="birthday" />
+		<result column="sex" property="sex" />
 		<result column="email" property="email" />
 		<result column="phone" property="phone" />
+		<result column="card_id" property="cardId" />
+		<result column="card_type" property="cardType" />
 		<result column="delete_flag" property="deleteFlag" />
 		<result column="create_time" property="createTime" />
 		<result column="create_by" property="createBy" />
@@ -20,7 +24,7 @@
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, user_account AS userAccount, password, salt, user_name AS userName, email, phone, delete_flag AS deleteFlag, create_time AS createTime, create_by AS createBy, modify_time AS modifyTime, modify_by AS modifyBy
+        id, user_account AS userAccount, password, salt, user_name AS userName, birthday, sex, email, phone, card_id AS cardId, card_type AS cardType, delete_flag AS deleteFlag, create_time AS createTime, create_by AS createBy, modify_time AS modifyTime, modify_by AS modifyBy
     </sql>
 
 </mapper>

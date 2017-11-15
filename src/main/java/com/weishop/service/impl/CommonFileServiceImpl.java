@@ -1,13 +1,14 @@
 package com.weishop.service.impl;
 
 import com.weishop.pojo.CommonFile;
+import com.weishop.pojo.enums.BusType;
+import com.weishop.pojo.enums.FileType;
 import com.weishop.properties.FileServerProperties;
-import com.weishop.global.BusType;
-import com.weishop.global.FileType;
 import com.weishop.mapper.CommonFileMapper;
 import com.weishop.service.ICommonFileService;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+import com.google.common.collect.Lists;
 
 import java.util.List;
 
@@ -36,6 +37,8 @@ public class CommonFileServiceImpl extends ServiceImpl<CommonFileMapper, CommonF
 		CommonFile cf = this.selectOne(wrapper);
 		if(null!=cf) {
 			cf.setFilePath(fileServerProperties.getUrl()+cf.getFilePath());
+		}else{
+			cf = new CommonFile();
 		}
 		return cf;
 	}
@@ -46,7 +49,14 @@ public class CommonFileServiceImpl extends ServiceImpl<CommonFileMapper, CommonF
 		wrapper.eq(CommonFile.BUS_TYPE, busType);
 		wrapper.eq(CommonFile.BUS_ID, busId);
 		wrapper.eq(CommonFile.FILE_TYPE, fileType);
-		return this.selectList(wrapper);
+		List<CommonFile> files = this.selectList(wrapper);
+		if(null==files){
+			return Lists.newArrayList();
+		}
+		for (CommonFile cf : files) {
+			cf.setFilePath(fileServerProperties.getUrl()+cf.getFilePath());
+		}
+		return files;
 	}
 
 	@Override

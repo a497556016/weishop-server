@@ -13,11 +13,16 @@ import com.google.common.collect.Maps;
 import com.weishop.base.BaseController;
 import com.weishop.base.BaseResponse;
 import com.weishop.base.PageResponse;
+import com.weishop.dto.UserDTO;
 import com.weishop.global.Const;
+import com.weishop.pojo.CommonFile;
 import com.weishop.pojo.User;
+import com.weishop.pojo.enums.BusType;
+import com.weishop.service.ICommonFileService;
 import com.weishop.service.IUserService;
 import com.weishop.service.impl.UserServiceImpl;
 import com.weishop.utils.PageUtils;
+import com.weishop.utils.PropertyUtils;
 
 import java.util.List;
 import java.util.Map;
@@ -43,6 +48,8 @@ import org.springframework.stereotype.Controller;
 public class UserController extends BaseController<UserServiceImpl,User> {
 	@Autowired
 	private IUserService userService;
+	@Autowired
+	private ICommonFileService commonFileService;
 	
 	@RequestMapping("/test")
 	@ResponseBody
@@ -64,6 +71,7 @@ public class UserController extends BaseController<UserServiceImpl,User> {
 	@ResponseBody
 	public BaseResponse<?> loginOrRegister(User user,String msgCode){
 		EntityWrapper<User> wrapper = new EntityWrapper<>();
+		UserDTO userDTO = new UserDTO();
 		
 		//如果是手机登陆
 		if(StringUtils.isNotEmpty(user.getPhone())) {
@@ -103,13 +111,15 @@ public class UserController extends BaseController<UserServiceImpl,User> {
 				if(!md5PasswordEncoder.isPasswordValid(sysUser.getPassword(), user.getPassword(), sysUser.getSalt())) {
 					return BaseResponse.error("登陆失败，密码不匹配！");
 				}else {
-					user = sysUser;
+					PropertyUtils.convertModelToDTO(sysUser, userDTO);
+					CommonFile cf = commonFileService.selectImageByBus(BusType.USER_PHOTO.getType(), sysUser.getId());
+					userDTO.setPhotoUrl(cf.getFilePath());
 				}
 			}
 		}else {
 			return BaseResponse.error("请输入手机号码或者用户名、密码！");
 		}
 		
-		return BaseResponse.result("登陆成功！",user);
+		return BaseResponse.result("登陆成功！",userDTO);
 	}
 }

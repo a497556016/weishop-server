@@ -3,6 +3,7 @@ package com.weishop.service.impl;
 import com.weishop.pojo.ShipAddress;
 import com.weishop.mapper.ShipAddressMapper;
 import com.weishop.service.IShipAddressService;
+import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -16,5 +17,18 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class ShipAddressServiceImpl extends ServiceImpl<ShipAddressMapper, ShipAddress> implements IShipAddressService {
+
+	@Override
+	public void setDefaultShipAddress(Integer id, Integer userId) {
+		ShipAddress shipAddress = new ShipAddress();
+		shipAddress.setDefault(false);
+		EntityWrapper<ShipAddress> entityWrapper = new EntityWrapper<>();
+		entityWrapper.eq(ShipAddress.USER_ID, userId);
+		this.baseMapper.update(shipAddress, entityWrapper);
+		
+		shipAddress.setDefault(true);
+		shipAddress.setId(id);
+		this.baseMapper.updateById(shipAddress);
+	}
 	
 }

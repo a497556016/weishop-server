@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.service.IService;
  * @since 2017-10-27
  */
 public interface IShipAddressService extends IService<ShipAddress> {
-	
+	void setDefaultShipAddress(Integer id,Integer  userId);
 }

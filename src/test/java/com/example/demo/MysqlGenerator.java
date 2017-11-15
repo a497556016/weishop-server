@@ -32,14 +32,15 @@ import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
  */
 public class MysqlGenerator {
 	private static final String[] tables = {
-			"sys_user",
-			"bus_product",
-			"bus_shop_cart",
-			"bus_order",
-			"bus_order_list",
-			"base_ship_address",
-			"bus_product_item",
-			"base_common_file"
+//			"sys_user",
+//			"bus_product",
+//			"bus_shop_cart",
+//			"bus_order",
+//			"bus_order_list",
+//			"base_ship_address",
+//			"bus_product_item",
+//			"base_common_file",
+			"bus_comment"
 	};
 	private static final String[] prifex = {"sys_", "bus_", "base_"};
 	private static final String projectPath = "E:\\\\mybatis-plus-auto-code\\\\weishop-server\\\\";

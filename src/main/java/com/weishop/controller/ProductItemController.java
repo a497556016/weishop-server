@@ -52,6 +52,7 @@ public class ProductItemController extends BaseController<ProductItemServiceImpl
 	@ResponseBody
 	public BaseResponse<List<String>> getSizeByModel(String code,String model){
 		List<String> list = productItemService.getSizeByModel(code,model);
+		list.add(0, "");
 		return BaseResponse.result(list);
 	}
 	
@@ -59,6 +60,7 @@ public class ProductItemController extends BaseController<ProductItemServiceImpl
 	@ResponseBody
 	public BaseResponse<List<String>> getModelBySize(String code,String size){
 		List<String> list = productItemService.getModelBySize(code,size);
+		list.add(0, "");
 		return BaseResponse.result(list);
 	}
 	
